@@ -1,0 +1,36 @@
+{
+  "name": "bleed",
+  "version": "0.0.1",
+  "description": "Bleeds memory in a configurable and predictable way.",
+  "keywords": [
+    "memory"
+  ],
+  "main": "index.js",
+  "author": "Brandon Cannaday <brandon@modulus.io>",
+  "maintainers": [
+    "Brandon Cannaday <brandon@modulus.io>"
+  ],
+  "contributors": [
+    "Brandon Cannaday <brandon@modulus.io>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InconceivableDuck/bleed"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "jshint": "~2.1.4",
+    "mocha": "~1.17.0",
+    "should": "~3.0.1",
+    "istanbul": "~0.2.4"
+  },
+  "dependencies": {
+    "async": "^0.9.0"
+  }
+}
