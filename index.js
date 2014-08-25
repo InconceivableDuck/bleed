@@ -26,7 +26,7 @@ module.exports = function(options, callback) {
     function() { return count < increments; },
     function(callback) {
       count++;
-      setTimeout(allocate, incrementTime * count, options, count, incrementAmount, buffers, callback);
+      setTimeout(allocate, incrementTime, options, count, incrementAmount, buffers, callback);
     },
     function() { callback(null, buffers); });
 };
